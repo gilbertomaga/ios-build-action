@@ -103,5 +103,5 @@ inputs:
     description: "The iOS application identifier; useful to sync a specific provisioning profile"
     required: false
 runs:
-  using: "node16"
+  using: "node20"
   main: "dist/index.js"
